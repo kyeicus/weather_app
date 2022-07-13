@@ -110,7 +110,7 @@ export default function Main({ navigation, route }: StackScreenProps<any>) {
               navigation.navigate("Settings");
             }}
           >
-            <Feather name="settings" size={24} color="white" />
+            <Feather name="settings" size={24}  />
             {/* <SimpleLineIcons name="menu" size={24} color="#fff" /> */}
           </TouchableOpacity>
         </View>
@@ -122,8 +122,8 @@ export default function Main({ navigation, route }: StackScreenProps<any>) {
             <Text
               style={{
                 fontSize: 28,
+                
                 backgroundColor: "#1278D6",
-                color: "white",
                 fontFamily: "San",
               }}
             >
@@ -136,14 +136,13 @@ export default function Main({ navigation, route }: StackScreenProps<any>) {
               style={{
                 fontSize: 10,
                 backgroundColor: "#1278D6",
-                color: "white",
                 fontFamily: "San",
               }}
             >
-              {/* Partly cloudy */}
-              {/* {console.log(weather?.weather[0].description  )} */}
+              {/* Partly cloudy
+              {console.log(weather?.weather[0].description  )}
 
-              {/* {weather?.[0]?.id} */}
+              {weather?.[0]?.id} */}
             </Text>
           </View>
           {/* temp */}
@@ -152,14 +151,15 @@ export default function Main({ navigation, route }: StackScreenProps<any>) {
               style={{
                 fontSize: 86,
                 backgroundColor: "#1278D6",
-                color: "white",
                 fontFamily: "Pop",
+                
               }}
             >
               {/* {Math.round(weather?.current?.temp)} */}
-              {weather?.main?.temp}
+              {weather?.main?.temp} 
               {/* 22&deg; */}
             </Text>
+            
           </View>
           {/* add icon */}
           <View style={{ position: "absolute", bottom: 0, right: 10 }}>
@@ -171,7 +171,7 @@ export default function Main({ navigation, route }: StackScreenProps<any>) {
               <MaterialIcons
                 name="search"
                 size={28}
-                color="white"
+                
                 style={{ backgroundColor: "#1278d6" }}
               />
             </TouchableOpacity>
@@ -179,10 +179,10 @@ export default function Main({ navigation, route }: StackScreenProps<any>) {
         </View>
         {/* details end */}
       </View>
-      <View style={{ backgroundColor: "white" }}>
+      <View >
         <View
           style={{
-            backgroundColor: "white",
+            
             height: 40,
             marginTop: 100,
             flexDirection: "row",

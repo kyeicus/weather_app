@@ -75,7 +75,7 @@ export default function Unit({
               <Switch
                 trackColor={{ false: "#fff", true: "#1278D6" }}
                 thumbColor={isEnabled ? "#fff" : "#f4f3f4"}
-                ios_backgroundColor="#ccc"
+                // ios_backgroundColor="#ccc"
                 onValueChange={toggleSwitch}
                 value={isEnabled}
               />
@@ -89,11 +89,10 @@ export default function Unit({
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "white",
+    
     flex: 1,
   },
   main: {
-    backgroundColor: "#fff",
     marginHorizontal: 20,
   },
   logo: {

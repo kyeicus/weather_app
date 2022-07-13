@@ -86,7 +86,7 @@ export default function TabOneScreen({
         >
           <Text
             style={{
-              color: "white",
+              
               padding: 10,
               fontSize: 16,
               fontFamily: "Pop",
@@ -104,7 +104,7 @@ export default function TabOneScreen({
         >
           <Text
             style={{
-              color: "white",
+              
               padding: 10,
               fontSize: 16,
               fontFamily: "Pop",

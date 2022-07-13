@@ -87,7 +87,7 @@ export default function TabOneScreen({
               navigation.navigate("Home");
             }}
             style={{
-              color: "white",
+              
               padding: 10,
               fontSize: 16,
               fontFamily: "Pop",
@@ -106,7 +106,6 @@ export default function TabOneScreen({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
   },

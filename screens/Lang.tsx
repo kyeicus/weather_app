@@ -192,11 +192,9 @@ export default function Lang({ navigation, route }: StackScreenProps<any>) {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "white",
     flex: 1,
   },
   main: {
-    backgroundColor: "#fff",
     marginHorizontal: 20,
   },
   logo: {

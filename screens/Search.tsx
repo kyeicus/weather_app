@@ -33,7 +33,7 @@ export default function Search({ navigation, route }: StackScreenProps<any>) {
     try {
       let res = await fetch(URL);
       let data = await res.json();
-      console.log(data);
+      console.log("dadadata");
       setWeather(data);
     } catch (error) {
       console.log("something went wrong");
@@ -137,11 +137,11 @@ export default function Search({ navigation, route }: StackScreenProps<any>) {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "white",
+    
     flex: 1,
   },
   main: {
-    backgroundColor: "#fff",
+    
     marginHorizontal: 20,
   },
   logo: {

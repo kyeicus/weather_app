@@ -3,13 +3,11 @@
  * https://reactnavigation.org/docs/getting-started
  *
  */
-import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import * as React from 'react';
-import { ColorSchemeName } from 'react-native';
 
 // screens
-import TabOneScreen from '../screens/TabOneScreen'
 import TabTwoScreen from '../screens/TabTwoScreen'
 import Main from '../screens/Main'
 import Settings from '../screens/Settings'
@@ -23,8 +21,6 @@ import Unit from '../screens/Unit'
 
 
 // import { RootStackParamList } from '../types';
-import BottomTabNavigator from './BottomTabNavigator';
-import LinkingConfiguration from './LinkingConfiguration';
 
 
 export default function Navigation() {

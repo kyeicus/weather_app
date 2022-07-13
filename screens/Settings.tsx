@@ -79,7 +79,7 @@ export default function Settings({ navigation, route }: StackScreenProps<any>) {
                 <MaterialIcons
                   name="notifications-active"
                   size={24}
-                  color="black"
+                  // color="red"
                 />
                 <View style={{ paddingLeft: 20 }}>
                   <Text style={{ fontSize: 24, fontFamily: "San" }}>
@@ -92,7 +92,7 @@ export default function Settings({ navigation, route }: StackScreenProps<any>) {
                 <MaterialIcons
                   name="keyboard-arrow-right"
                   size={24}
-                  color="black"
+                  // color="black"
                 />
               </View>
             </View>
@@ -112,7 +112,9 @@ export default function Settings({ navigation, route }: StackScreenProps<any>) {
               }}
             >
               <View style={{ flexDirection: "row" }}>
-                <Ionicons name="chatbox-outline" size={24} color="black" />
+                <Ionicons name="chatbox-outline" size={24}
+                //  color="black" 
+                 />
                 <View style={{ paddingLeft: 20 }}>
                   <Text style={{ fontSize: 24, fontFamily: "San" }}>Units</Text>
                   <Text style={{ fontFamily: "Pop" }}>Customize data</Text>
@@ -122,7 +124,7 @@ export default function Settings({ navigation, route }: StackScreenProps<any>) {
                 <MaterialIcons
                   name="keyboard-arrow-right"
                   size={24}
-                  color="black"
+                  // color="black"
                 />
               </View>
             </View>
@@ -150,7 +152,7 @@ export default function Settings({ navigation, route }: StackScreenProps<any>) {
                 <MaterialIcons
                   name="keyboard-arrow-right"
                   size={24}
-                  color="black"
+                  // color="black"
                 />
               </View>
             </View>
@@ -165,12 +167,11 @@ export default function Settings({ navigation, route }: StackScreenProps<any>) {
 const styles = StyleSheet.create({
   container: {
     // color:'red'
-    backgroundColor: "white",
+    
     flex: 1,
   },
   main: {
     flex: 1,
-    backgroundColor: "#fff",
     marginHorizontal: 20,
   },
   logo: {
